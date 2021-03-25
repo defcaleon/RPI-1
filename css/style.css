@@ -1,0 +1,517 @@
+/* General */
+
+@font-face {
+    font-family: GothmRoundedBold;
+    src: url(../fonts/GothamRoundedBold.ttf);
+}
+
+@font-face {
+    font-family: GothmRoundedBook;
+    src: url(../fonts/gothamrounded-book-webfont.ttf);
+}
+
+@font-face {
+    font-family: GothmRoundedMedium;
+    src: url(../fonts/GothamRoundedMedium.ttf);
+}
+
+.content{
+    position: relative;
+    max-width: 1280px;
+    margin: auto;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* Header */
+
+.theme-none {
+    display: none;
+}
+
+header {
+    position:  relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    height: 745px;
+    width: 1280px;
+    background: url(../images/headerbg.jpg);
+    background-size: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+header .wrapper {
+    width: 760px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+header nav {
+    height: 55px;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+nav li {
+    float: left;
+}
+
+header nav li a:hover {
+    color: #27dd91;
+    cursor: pointer;
+}
+
+header nav .nav-left {
+    margin: 30px 65px 9px 0;
+}
+
+header nav .nav-right {
+    float: right;
+    margin: 30px 0 9px 65px;
+}
+
+nav a {
+    font-size: 16px;
+    font-family: GothmRoundedBold, serif;
+    letter-spacing: 3px;
+    color: #ccc;
+}
+
+/* Section 0 */
+
+#sec-zero{
+    position: absolute;
+    margin: auto;
+    z-index: 100;
+    top:320px;
+    text-align: center;
+
+}
+#sec-zero .wrapper {
+    width: 1280px;
+    height: auto;
+
+}
+
+.title {
+
+}
+
+.title h1 {
+    font-size: 36px;
+    font-family: GothmRoundedBold;
+    text-align: center;
+    letter-spacing: 5.3px;
+    color: #ccc;
+}
+
+.title h2 {
+    font-size: 16px;
+    font-family: GothmRoundedMedium;
+    font-weight: bold;
+    text-align: center;
+    color: #ccc;
+    margin-top: 4px;
+    letter-spacing: 2.5px;
+}
+
+.btn-start {
+    position: relative;
+    display: block;
+    width: 166px;
+    padding: 15px 0px 15px 0px;
+    margin:30px auto;
+    font-size: 12px;
+    font-family: GothmRoundedBold;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #ccc;
+    border-radius: 3px;
+    border: none;
+    background-color: #16a085;
+}
+
+.btn-start:hover {
+    background-color: #27dd91;
+    color: #262222;
+    cursor: pointer;
+}
+
+header .btn-start {
+    display: flex;
+    justify-content: center;
+}
+
+.net-icons {
+    margin-top: 222px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.ico {
+    width: 23px;
+    height: 21px;
+    display: block;
+    background: url(../images/sprite.png) no-repeat 0 0;
+}
+
+#fi {
+    background-position: -39px 0;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#dr {
+    background-position: -78px 0;
+}
+
+
+/* Section 1 */
+
+
+#sec-first {
+    height: 492px;
+    width: 1280px;
+    background-color: #f5f6f7;
+    text-align: left;
+}
+
+#sec-first .wrapper {
+    float: left;
+    margin: 113px 0px 0px 128px;
+}
+
+#sec-first h2 {
+    color: #16a085;
+    font-family: GothmRoundedBold;
+    font-size: 18px;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+
+#sec-first p {
+    color: #373737;
+    font-size: 12px;
+    font-family: GothmRoundedBook;
+    letter-spacing: 2px;
+}
+
+#sec-first strong {
+    font-family: GothmRoundedBold;
+}
+
+#sec-first aside {
+    margin-top: 92px;
+    float: right;
+}
+
+
+/* Section 2 */
+
+
+#sec-two {
+    height: 558px;
+    width: 1280px;
+    background-color: #ffffff;
+}
+
+#sec-two .wrapper {
+    text-align: left;
+    float: left;
+    margin-top: 143px;
+    margin-left: 330px;
+}
+
+#sec-two aside {
+    float: left;
+    margin-top: 147px;
+    margin-left: 125px;
+}
+
+#sec-two h2 {
+    color: #16a085;
+    font-family: GothmRoundedBold;
+    font-size: 18px;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+
+#sec-two p {
+    color: #373737;
+    font-size: 12px;
+    font-family: GothmRoundedBook;
+    letter-spacing: 2px;
+}
+
+#sec-two strong {
+    font-family: GothmRoundedBold;
+}
+
+#sec-two .num {
+    font-family: GothmRoundedBold;
+    font-size: 12px;
+}
+
+.slider button {
+    width: 10px;
+    height: 16px;
+    border: none;
+    display: block;
+    float: left;
+    background: url(../images/buttons.png) no-repeat 0 0;
+}
+
+#slider-right {
+    background-position: -32px 0;
+    margin-left: 22px;
+}
+
+
+/* Section 3 */
+
+
+#sec-three {
+    height: 484px;
+    width: 1280px;
+    background-color: #f5f6f7
+}
+
+#sec-three .sec3wrap {
+    margin-top: 95px;
+    margin-right: 128px;
+    float: right;
+}
+
+.to-right {
+    width: 1152px;
+    height: 26px;
+}
+
+.to-right button {
+    float: right;
+}
+
+#right-btn {
+    background-position: -32px 0;
+    margin-left: 15px;
+}
+
+#sec-three .text-wrapper {
+    width: 385px;
+    text-align: center;
+}
+
+#sec-three .wrapper {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+#sec-three h2 {
+    color: #373737;
+    font-size: 16px;
+    font-family: GothmRoundedBold;
+    margin-top: 31px;
+    letter-spacing: 2px;
+}
+
+#sec-three p {
+    font-family: GothmRoundedMedium;
+    font-size: 10px;
+    margin-top: 25px;
+    color: #373737;
+    letter-spacing: 2px;
+}
+
+#sec-tree img {
+    width: 370px;
+    height: 244px;
+}
+
+
+/* Section 4 */
+
+
+#sec-four {
+    width: 1280px;
+    height: 790px;
+    background: url(../images/back4.jpg);
+    background-size: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#sec-four h2 {
+    color: #ffffff;
+    font-size: 24px;
+    font-family: GothmRoundedBold;
+    letter-spacing: 2px;
+}
+
+#sec-four input[type="email"] {
+    width: 280px;
+    height: 58px;
+    letter-spacing: 2px;
+}
+
+#sec-four input[type="submit"] {
+    margin-left: -5px;
+    color: transparent;
+    height: 60px;
+    width: 63px;
+    background: url(../images/ok.png) no-repeat 0 0;
+    border: none;
+    border-radius: 3px;
+}
+
+#sec-four input[type="submit"]:hover {
+    cursor: pointer;
+}
+
+#sec-four .mail-form {
+    margin-top: 35px;
+}
+
+#img-bus {
+    margin-right: 26px;
+}
+
+.camera-logo {
+    width: 59px;
+    height: 55px;
+    border: none;
+}
+
+/* Section 5 */
+
+
+#sec-five {
+    width: 1280px;
+    height: 396px;
+    background-color: #f5f6f7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #373737;
+    text-align: center;
+}
+
+#sec-five h2 {
+    font-family: GothmRoundedBold;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+#sec-five p {
+    font-family: GothmRoundedMedium;
+    font-size: 12px;
+    margin-top: 17px;
+    letter-spacing: 2px;
+}
+
+#sec-five .store-buttons {
+    margin-top: 46px;
+    border: none;
+}
+
+#sec-five .big {
+    width: 250px;
+    height: 56px;
+    background-color: #1abc9c;
+
+    background-position: right;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    font-family: GothmRoundedMedium;
+    font-size: 14px;
+    text-align: left;
+    padding-left: 30px;
+    letter-spacing: 2px;
+    border: none;
+
+}
+
+#sec-five .big:hover {
+    background-color: #27dd91;
+    color: #262222;
+    cursor: pointer;
+}
+
+#sec-five .app-store {
+    background-image: url(../images/ico-apple.png);
+}
+
+#sec-five .play-store {
+    background-image: url(../images/ico-android.png);
+}
+
+
+/* footer */
+
+
+footer {
+    width: 1280px;
+    height: 132px;
+    background-color: #ffffff;
+    color: #373737;
+}
+
+footer .wrapper {
+    float: left;
+    margin-left: 128px;
+    margin-top: 47px;
+}
+
+footer .copyright {
+    font-family: GothmRoundedBold;
+    font-size: 14px;
+    color: #373737;
+    margin-top: 27px;
+    letter-spacing: 2px;
+}
+
+footer .bottom-nav li {
+    float: left;
+    margin-right: 10px;
+    font-family: GothmRoundedBold;
+    font-size: 14px;
+}
+
+footer .bottom-nav a {
+    color: #262222;
+}
+
+footer .bottom-nav a:hover {
+    color: #27dd91;
+    cursor: pointer;
+}
+
+.line {
+    color: #16a085;
+}
+
+footer .camera-logo {
+    float: right;
+    margin: 39px 128px;
+}
